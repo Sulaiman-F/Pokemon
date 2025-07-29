@@ -1,38 +1,25 @@
-# sv
+# Pokémon Explorer
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A web application built with SvelteKit and TypeScript that interfaces with the RESTful PokéAPI. Features real-time search functionality, type-based filtering and detailed character data visualization with responsive UI components.
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Search Pokémon by name
+- Filter by type
+- Dark/Light mode toggle
+- Detailed Pokémon
+- Responsive design
+- Smooth animations
 
-```bash
-# create a new project in the current directory
-npx sv create
+## Tech Stack
 
-# create a new project in my-app
-npx sv create my-app
-```
+- **[SvelteKit](https://kit.svelte.dev/)** - Web framework
+- **[TypeScript](https://www.typescriptlang.org/)** - Type safety
+- **[TailwindCSS](https://tailwindcss.com/)** - Styling
+- **[PokéAPI](https://pokeapi.co/)** - Pokémon data
+- **[shadcn/ui](https://ui.shadcn.com/)** - UI components
 
-## Developing
+## Prerequisites
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- **Node.js** (v18 or higher)
+- **npm** or **bun** or **yarn**
