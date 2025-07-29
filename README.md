@@ -2,6 +2,8 @@
 
 A web application built with SvelteKit and TypeScript that interfaces with the RESTful PokéAPI. Features real-time search functionality, type-based filtering and detailed character data visualization with responsive UI components.
 
+**[View Live App](https://pokemon-nuyz.onrender.com)**
+
 ## Features
 
 - Search Pokémon by name
