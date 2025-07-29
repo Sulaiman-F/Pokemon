@@ -229,7 +229,7 @@
 								loading="lazy"
 							/>
 
-							<div class="flex w-full flex-col items-start justify-center gap-2">
+							<div class="flex h-full w-full flex-col justify-center gap-2 text-start">
 								<h2 class="text-lg font-semibold lg:text-2xl">{pokemon.name}</h2>
 								<p class="text-base text-neutral-600 lg:text-lg">#{pokemon.id}</p>
 							</div>
